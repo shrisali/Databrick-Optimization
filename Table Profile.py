@@ -1,3 +1,7 @@
+# This table provides a comprehensive summary of metadata for each table in the system.  
+# It includes size, file count, optimization history, partitioning details, and usage timestamps.  
+# Useful for monitoring table health, performance tuning, and data governance.
+
 from pyspark.sql import Row
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, ArrayType
 
